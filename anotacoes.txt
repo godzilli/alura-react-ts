@@ -1,0 +1,23 @@
+O JSX é uma forma de "escrever HTML no JS", mas não é exatamente isso, por isso tranformamos em um elemento React com o React.creatElement(). Exemplo:
+    const Botao = React.createElement('button', {}, 'Botão');
+
+React.Component obrigatóriamente deve existir uma função chamada render(){ aqui dentro retornamos o componente JSX }
+
+Array de obejtos:
+const tarefas = [{
+        
+    }]
+
+MAP - Percorrer Array
+.map, que roda, faz o loop no array e retorna algo de cada iteração.
+O .map aceita dois parâmetros. O primeiro é o próprio item, a própria tarefa,
+    logo, teremos {tarefas.map((tarefa, ))}.
+    E o segundo é o index do array nessa tarefa, {tarefas.map((tarefa, index) => (
+
+style={{aqui dentro de duas chaves, tranformamos em Objeto}}
+
+useState quando muda, o componente que tem state atualiza junto, bem usada em listas
+[estado, funcaoQueMudaOEstado].
+
+: tipa variáveis
+{} objeto 
